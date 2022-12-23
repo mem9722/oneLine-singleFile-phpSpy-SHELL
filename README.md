@@ -15,4 +15,4 @@ to zip folder `?path=public_html/&destination=name_zip_file`
 
 # SQL injection
 
-$phpString = ' replace all char ' with \' ';
+$phpString = ' replace all char ' with \\' ';
